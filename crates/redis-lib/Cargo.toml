@@ -7,3 +7,6 @@ edition = "2024"
 bb8 = { workspace = true }
 bb8-redis = { workspace = true }
 anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+redis = { workspace = true }

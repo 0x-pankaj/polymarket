@@ -1,6 +1,6 @@
-use anyhow::Ok;
 use bb8::{Pool, PooledConnection};
 use bb8_redis::RedisConnectionManager;
+
 pub struct RedisPool {
     pool: Pool<RedisConnectionManager>,
 }
