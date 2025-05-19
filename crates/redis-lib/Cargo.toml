@@ -1,0 +1,9 @@
+[package]
+name = "redis-lib"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bb8 = { workspace = true }
+bb8-redis = { workspace = true }
+anyhow = { workspace = true }
